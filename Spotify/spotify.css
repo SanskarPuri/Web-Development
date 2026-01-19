@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+/* Main Layout */
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    background-color: #000;
+    padding: 0.5rem;
+}
+
+.nav {
+    background-color: #121212;
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+
+.nav-options i {
+    font-size: 1.2rem;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-options:hover {
+    opacity: 1;
+}
+
+/* Library */
+.library {
+    background-color: #121212;
+    border-radius: 0.75rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 1.25rem;
+}
+
+.icons i {
+    margin-left: 1rem;
+    opacity: 0.7;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.lib-boxes {
+    margin-top: 1rem;
+}
+
+.box {
+    background-color: #242424;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p1 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.p2 {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Badge Buttons */
+.badge {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.4rem 1rem;
+    margin-top: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    background: linear-gradient(#1f1f1f, #121212);
+    overflow-y: auto;
+}
+
+/* Sticky Navbar */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.sticky-options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* Cards */
+.cards {
+    padding: 1rem 2rem;
+}
+
+.card-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #181818;
+    width: 180px;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #282828;
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.information {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Footer line */
+.footer {
+    height: 200px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: #333;
+    margin: auto;
+}
+
+/* Music Player */
+.music-player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-top: 1px solid #282828;
+}
+
+/* Song Info */
+.song {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 25%;
+}
+
+.song img {
+    height: 56px;
+    border-radius: 0.4rem;
+}
+
+.track p {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+/* Player Controls */
+.player {
+    width: 50%;
+}
+
+.player-control {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.player-control i {
+    opacity: 0.7;
+}
+
+.player-control i:hover {
+    opacity: 1;
+}
+
+/* Progress Bar */
+.control-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.playback {
+    width: 60%;
+    cursor: pointer;
+}
+
+/* Right section */
+.list {
+    width: 25%;
+}
+.premium {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding: 0.5rem 1.1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.premium:hover {
+    transform: scale(1.05);
+}
