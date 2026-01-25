@@ -1,0 +1,27 @@
+body{
+    font-family: "Gravitas One", serif;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-vector/cat-lover-pattern-background-design_53876-100662.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: repeat;
+}
+p{
+    color: #CF0F0F;
+    font-size: 1.5rem;
+    border: 2px solid #CF0F0F;
+    border-radius: 1rem;
+}
+.cat{
+    padding: 0 20px 0 20px;
+    margin: 1rem;
+    background-color: teal;
+    border: 2px solid teal;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.cat:active{
+    background-color: white;
+    color: teal;
+    transform: scale(0.88);
+}
